@@ -1,0 +1,152 @@
+
+/*ipad both*/
+@media screen and (min-width : 768px) and (max-width : 1024px){
+.navbar-default{
+ height: 90em !important;
+}
+
+.page-icons a{
+	padding-right: 5% !important;
+}
+
+.carousel-content{
+	padding:20% 15% 0 10% !important;
+}
+
+.divider{
+	padding-right: 9% !important;
+}
+
+.menu-all img{
+	height: 20em;
+}
+
+.special-heading{
+	font-size: 1em !important;
+}
+
+.box--origin-top{
+	padding:3% 0% 2% 0% !important;
+}
+
+.special-item{
+	font-size: 1em !important;
+}
+
+
+.opening-time h3{
+	font-size: 1.2em;
+}
+
+.opening-time p{
+	font-size: 0.7em;
+}
+
+.food img{
+	width: 95%;
+}
+
+
+}
+/*ipad landscape*/
+@media screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) { 
+
+	.navbar-nav img{
+		height: 3.5em;
+	}
+
+	.menu h3 span:before{
+		left: -3%;
+    	width: 60%;	
+	}
+
+	.menu h3 span:after{
+		right: 7%;
+	}
+
+
+
+	.book-table h3 span:before{
+		left: -3%;
+    	width: 60%;	
+	}
+
+	.book-table h3 span:after{
+		right: 7%;
+	}
+
+	.book-table{
+	margin-top: -21em;
+	padding-top: 18%;
+	}
+
+}
+
+/*ipad potrait*/
+@media screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {  
+
+.navbar-nav img{
+		height: 2.4em;
+	}
+.menu h3 span:before{
+		left: -21%;
+    	width: 60%;	
+}
+
+.menu h3 span:after{
+		right: 7%;
+}
+
+.book-table h3 span:before{
+	left: -21%;
+    width: 60%;	
+}
+
+.book-table h3 span:after{
+	right: 3%;
+}
+
+.book-table{
+	margin-top: -20.9em;
+	padding-top: 18%;
+	}
+
+
+}
+
+/* Portrait and Landscape */
+@media screen (min-width: 800px) and (max-width: 1280px) {
+	
+.page-icons a{
+	padding-right: 5% !important;
+}
+
+.carousel-content{
+	padding:20% 15% 0 10% !important;
+}
+
+.divider{
+	padding-right: 9% !important;
+}
+
+.menu-all img{
+	height: 20em;
+}
+
+}
+
+/* Portrait */
+@media screen (max-width: 800px) and (orientation: portrait) { 
+	.navbar-nav img{
+		height: 3.5em;
+	}
+
+}
+
+/* Landscape */
+@media screen (max-width: 1280px) and (orientation: landscape) { 
+	.navbar-nav img{
+		height: 2.4em;
+	}
+
+}
