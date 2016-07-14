@@ -15,7 +15,7 @@
           <div class="">
             <ul class="nav navbar-nav">
               <li style="background:rgba(53, 5, 0, 0.5) !important;border-bottom:none !important;" class="logo-wrapper">
-                  <a href="index.php"  class="logo"><img src="images/logo_white.png" alt="43 latin stake and grill house" title="43 latin stake and grill house"></a>
+                  <a href="index.php"  class="logo"><img src="images/logo-real.jpg" alt="43 latin stake and grill house" title="43 latin stake and grill house"></a>
               </li>
               <li class="page-icons" data-toggle="tooltip" data-placement="right" title="Home" ><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
               <li class="page-icons"><a href="#" data-toggle="tooltip" data-placement="right" title="About" ><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
