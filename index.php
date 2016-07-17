@@ -246,6 +246,8 @@ function showPage() {
 <script type="text/javascript">
 $(function() {
   $('.owl-carousel.testimonial-carousel').owlCarousel({
+  	autoPlay : false,
+    stopOnHover : false,
     nav: true,
     navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
     dots: false,

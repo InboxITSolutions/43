@@ -18,7 +18,7 @@
                   <a href="index.php"  class="logo"><img src="images/logo-real.jpg" alt="43 latin stake and grill house" title="43 latin stake and grill house"></a>
               </li>
               <li class="page-icons" data-toggle="tooltip" data-placement="right" title="Home" ><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-              <li class="page-icons"><a href="#" data-toggle="tooltip" data-placement="right" title="About" ><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
+              <li class="page-icons"><a href="about.php" data-toggle="tooltip" data-placement="right" title="About" ><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
               <li class="page-icons"><a href="#" data-toggle="tooltip" data-placement="right" title="Menu"><span class="glyphicon glyphicon-list-alt"></span></a></li>
               <li class="page-icons"><a href="gallery.php" data-toggle="tooltip" data-placement="right" title="Gallery" ><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
               <li class="page-icons"><a href="#" data-toggle="tooltip" data-placement="right" title="Specials" ><i class="fa fa-star" aria-hidden="true"></i></a></li>

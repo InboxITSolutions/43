@@ -9,13 +9,13 @@
 	</div>
 </div>
 <div class="col-xs-12 col-md-12 col-sm-12 footer-down">
-	<hr style="margin:0 !important;">
+	<hr style="margin:0 !important;" class="hr-footer">
 	<div class="col-xs-12 col-md-6 col-sm-6 footer-down-left">
 		<p>Copyright &copy; 2016 </p>
 	</div>
 	<div class="col-xs-12 col-md-6 col-sm-6 footer-down-right">
 		
-		Design:<a href="#">Inbox.com</a>
+		Design:<a href="#">InBoxIT</a>
 	</div>
 </div>
   <script type="text/javascript">
