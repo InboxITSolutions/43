@@ -15,7 +15,7 @@
 	<script type="text/javascript" src="js/stickysidebar.js"></script>
   <script type="text/javascript" src="js/hovereffect.js"></script>
 	  <style type="text/css">
-  .hr-footer{
+/*  .hr-footer{
     display: none;
   }
   .footer{
@@ -29,7 +29,7 @@
   .page-icons a{
     padding-bottom: 11.8px !important;
     line-height: 4.47em !important;
-  }
+  }*/
   </style>
 </head>
 <body  onload="myFunction()" style="margin:0;"><!--  -->
@@ -92,13 +92,17 @@
   		<div class="col-xs-12 col-md-12 col-sm-12 members" style="display:none;">
            <h3><span>MEMBERS</span></h3>          
            <div class="col-xs-12 col-md-12 col-sm-12 bod">
-              <img src="images/bod.png">
+              <div class="col-xs-12 col-md-2 col-sm-2 bod-photo">
+                <img src="images/bod.png">
+              </div>
+              <div class="col-xs-12 col-md-10 col-sm-10 bod-message">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
            </div>
            <div class="col-xs-12 col-md-12 col-sm-12 our-team">
               <h4><span>MEET OUR STAFF</span></h4>
@@ -171,7 +175,7 @@
 <script>
 var myVar;
 function myFunction() {
-    myVar = setTimeout(showPage, 4000);
+    myVar = setTimeout(showPage,1);
 }
 function showPage() {
   document.getElementById("loader").style.display = "none";

@@ -235,7 +235,7 @@
 <script>
 var myVar;
 function myFunction() {
-    myVar = setTimeout(showPage, 4000);
+    myVar = setTimeout(showPage,1);
 }
 function showPage() {
   document.getElementById("loader").style.display = "none";

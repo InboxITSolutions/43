@@ -39,37 +39,63 @@
 	display: none;
 }
 
+.sidebar-navbar-collapse{
+	display: none ;
+}
+
+.navbar-brand{
+ padding: 0 !important;
+}
+
 .logo img{
-	margin: 0 !important;
+	/*margin: 0 !important;
 	height: 3em;
-	padding: 0 !important;
+	padding: 0 !important;*/
+	display: none;
 }
 
 .navbar-nav{
 	margin: 0 !important;
 }
 .sidebar-nav .navbar li {
-	float: left !important;
+	/*float: left !important;*/
 
+}
+.xs-screen{
+	display: inline;
+	font-family: sans-serif;
+	margin-left: 5px;
+}
+
+.page-icons{
+	text-align: left;
 }
 .page-icons a {
-	padding: 0 !important !important;
-  line-height: 3em !important !important;
-   margin: 20px 7px 0px 7px !important;
+	padding:2% 0% 1% 5% !important;
+  line-height: 3em !important ;
+   margin: 0 !important;
 
 }
 
+.page-icons a i{
+	font-size: 1.4em !important;
+	font-weight: lighter;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff !important;
+}
+
+.navbar-toggle{
+	border: none !important;
+}
 .navbar-default .navbar-nav>li>a .glyphicon{
 	left: 0 !important;
 	font-size: 22px !important;
 }
 
-.fa-file-text-o{
-	font-size: 21.9px !important;
-}
-
-.fa-home{
-	font-size: 27px !important;
+.navbar-default .navbar-toggle{
+	background: transparent !important; 
 }
 
 .navbar-default{
@@ -280,16 +306,66 @@
 	display: none;
 }
 
+.our-story h3 span:before{
+  display: none;
 }
+
+.our-story h3 span:after{
+	display: none;
+}
+.members h3 span:before{
+  display: none;
+}
+
+.members h3 span:after{
+	display: none;
+}
+
+
+.restaurant-image img{
+	margin: 0 !important;
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.bod-photo{
+	text-align: center;
+}
+.bod img{
+	margin-left:20% !important;
+	margin-bottom: 10% !important;
+}
+
+.our-story{
+	padding: 0 !important;
+}
+
+.restaurant-image{
+	padding: 0 !important;
+}
+
+.restaurant-story{
+	padding: 0 !important;
+}
+
+.continue-restaurant-story{
+	padding: 0 !important;
+}
+
+.bod{
+	padding: 0 !important;
+}
+
+.bod-message{
+	padding: 0 !important;
+}
+
+
+}
+
 
 /* iPhone 6 and 6+ portrait */
 @media screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait){ 
-
-.page-icons a {
-  	line-height: 3em !important;
-   margin: 20px 8px 0px 8px !important;
-
-}
 
 
 }

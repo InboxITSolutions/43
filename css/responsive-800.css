@@ -5,6 +5,10 @@
  height: 90em !important;
 }
 
+.sidebar-navbar-collapse{
+	display: inline ;
+}
+
 .page-icons a{
 	padding-right: 5% !important;
 }

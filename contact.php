@@ -34,7 +34,7 @@
 </head>
 <body  onload="myFunction()" style="margin:0;"><!--  -->
 <div id="loader">
-    <div class="loader_logo"> <img src="images/logo_white.png"></div>
+    <div class="loader_logo"> <img src="images/logo-real.jpg"></div>
     <div class="loader_loading"> <img src="images/loading.gif"></div>  
 </div>
 <div style=" color:#fff;display:none; " id="myDiv" class="animate-bottom"><!-- -->

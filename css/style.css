@@ -52,6 +52,9 @@ body{
   width: 100% !important;
 }
 
+.navbar-brand img{
+  height: 50px;
+}
 .navigation-bar{
   padding: 0 !important;
   text-align: center;
@@ -79,9 +82,11 @@ body{
 }
 .sidebar-nav .navbar li a{
   line-height: 4.55em;
-  
-}
+  }
 
+.xs-screen{
+  display: none;
+}
 .page-icons a{
   padding-left: 28px !important;
    transition:all ease-in ease-out 0.3s !important;
@@ -1166,7 +1171,6 @@ padding: 2% 5% 2.1% 4% !important;
   text-align: justify;
 width: 97%;
 font-size: 17px;
-padding-left: 17%;
 }
 
 .our-team{
@@ -1191,43 +1195,30 @@ padding-left: 17%;
 
 
 .staff{
-  /*padding: 0 !important;*/
   overflow: hidden;
-/* transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;*/
   padding-bottom: 10px !important;
 }
 .staff img{
   height: 300px;
   padding:1em; 
 }
-
-
 .staff h5{
   font-weight: bold;
   padding: 2% 0%;
   font-size: 1.4em;
 }
-
 .staff-2 h5{
   margin-left: 10%;
 }
-
 .staff-2 p{
   margin-left: 10%;
 }
-
 .staff-3 h5{
   margin-left: 9%;
 }
-
 .staff-3 p{
   margin-left: 9%;
 }
-
 .wrapper{  
   position:relative;  
 }  
