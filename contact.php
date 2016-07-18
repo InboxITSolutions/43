@@ -33,10 +33,7 @@
   </style>
 </head>
 <body  onload="myFunction()" style="margin:0;"><!--  -->
-<div id="loader">
-    <div class="loader_logo"> <img src="images/logo-real.jpg"></div>
-    <div class="loader_loading"> <img src="images/loading.gif"></div>  
-</div>
+<?php include'includes/loader.php';?>
 <div style=" color:#fff;display:none; " id="myDiv" class="animate-bottom"><!-- -->
    <?php include 'includes/navigation.php';?>
     <div class="col-xs-12 col-md-12 col-md-12 info">
@@ -73,16 +70,6 @@
     </div>
 </div>
 </div>
-<script>
-var myVar;
-function myFunction() {
-    myVar = setTimeout(showPage, 1);
-}
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
 </body>
 </html>
 

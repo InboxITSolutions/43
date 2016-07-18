@@ -289,7 +289,8 @@ z-index: 9999;
 }
 .menu h3 span{
   font-size: 1.5em;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.2em;
+  text-shadow:-3px 1px 0px #B20C0D;
 }
 
 .menu h3 span:before{
@@ -298,8 +299,8 @@ z-index: 9999;
   background-image: url('../images/line-one.png');
   background-repeat: no-repeat;
   top: 8px;
-  left: 11%;
-  width: 30%;
+  left: 10%;
+  width: 32%;
   height: 30px;
 }
 
@@ -309,8 +310,8 @@ z-index: 9999;
   background-image: url('../images/line-two.png');
   background-repeat: no-repeat;
   top: 8px;
-  right:11%;
-  width: 30%;
+  right:10%;
+  width: 32%;
   height: 30px;
 }
 
@@ -504,6 +505,7 @@ z-index: 9999;
 
 .book-table h3 span{
   font-size: 1.5em;
+  text-shadow:-3px 1px 0px #B20C0D;
 }
 
 .book-table h3 span:before{
@@ -626,6 +628,7 @@ z-index: 9999;
 
 .testimonial-custom h3 span{
   font-size: 1.5em;
+  text-shadow:-3px 1px 0px #B20C0D;
 }
 
 .testimonial-custom h3 span:before{
@@ -800,7 +803,7 @@ z-index: 9999;
   font-size: 1.5em;
   letter-spacing: 0.1em;
   color: #fff;
-  
+  text-shadow:-3px 1px 0px #B20C0D;
   
 }
 
@@ -903,6 +906,7 @@ padding: 2% 5% 2.1% 4% !important;
   font-size: 1.5em;
   letter-spacing: 0.1em;
   color: #fff;
+  text-shadow:-3px 1px 0px #B20C0D;
 }
 
 .info h3 span:before{
@@ -1054,6 +1058,7 @@ padding: 2% 5% 2.1% 4% !important;
   font-size: 1.5em;
   letter-spacing: 0.1em;
   color: #fff;
+  text-shadow:-3px 1px 0px #B20C0D;
 }
 
 .our-story h3 span:before{
@@ -1131,6 +1136,7 @@ padding: 2% 5% 2.1% 4% !important;
   font-size: 1.5em;
   letter-spacing: 0.1em;
   color: #fff;
+  text-shadow:-3px 1px 0px #B20C0D;
 }
 
 .members h3 span:before{

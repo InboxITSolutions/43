@@ -16,10 +16,7 @@
 	 <link rel='stylesheet prefetch' href='https://rawgit.com/OwlCarousel2/OwlCarousel2/develop/dist/assets/owl.carousel.min.css'>
 </head>
 <body  onload="myFunction()" style="margin:0;"><!--  -->
-<div id="loader">
-    <div class="loader_logo"> <img src="images/logo-real.jpg"></div>
-    <div class="loader_loading"> <img src="images/loading.gif"></div>  
-</div>
+<?php include'includes/loader.php';?>
 <div style=" color:#fff;display:none; " id="myDiv" class="animate-bottom"><!-- -->
 <?php include 'includes/navigation.php'; ?> 
 		<div class="col-xs-12 col-md-12 col-sm-12 top-social-bar">
@@ -79,7 +76,7 @@
 			<section id="menu-types">
 				<div class="col-xs-12 cold-md-12 col-sm-12 menu">
 							<div class="heading-wrapper">
-								<h3 style="margin-bottom: 2.5em;"><span>MENU</span></h3>
+								<h3 style="margin-bottom: 2.5em;"><span>Menu</span></h3>
 							</div>
 							<div class="col-xs-12 col-md-4 col-sm-4 menu-all regular-menu">
 								<img src="images/menu-bg.png">
@@ -231,17 +228,6 @@
 </div>
 
 </body>
-
-<script>
-var myVar;
-function myFunction() {
-    myVar = setTimeout(showPage,1);
-}
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
 <script src='https://rawgit.com/OwlCarousel2/OwlCarousel2/develop/dist/owl.carousel.min.js'></script>
 <script type="text/javascript">
 $(function() {

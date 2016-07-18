@@ -274,6 +274,7 @@
 .form-group-7 input{
 	width: 100% ;
 	margin: 0 !important;
+	margin-left:4px !important;
 }
 
 .testimonial-custom h3 span:before{
