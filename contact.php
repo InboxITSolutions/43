@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
- <title>43</title>
+ <title>The 43 Latin Steak and Grill House</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
@@ -32,9 +32,8 @@
   }
   </style>
 </head>
-<body  onload="myFunction()" style="margin:0;"><!--  -->
-<?php include'includes/loader.php';?>
-<div style=" color:#fff;display:none; " id="myDiv" class="animate-bottom"><!-- -->
+<body  style="margin:0;"><!--  -->
+<div style=" color:#fff;" class="animate-bottom"><!-- -->
    <?php include 'includes/navigation.php';?>
     <div class="col-xs-12 col-md-12 col-md-12 info">
       <h3 align="center"><span>Contact</span></h3>
@@ -56,7 +55,6 @@
                 <form action="#" method="post">
                         <tr><td><input type="text" placeholder="  &#xf007;&nbsp; Your Name"></td></tr>
                         <tr><td><input type="text" placeholder="  &#xf0e0;&nbsp; Your Email Address"></td></tr>
-                        <tr><td><input type="text" placeholder="  &#xf02d;&nbsp; Subject Of Your Message"></td></tr>
                         <tr><td><textarea rows="7"  placeholder="  &#xf075;&nbsp; Drop Us A Message"></textarea></td></tr>
                         <tr><td>
                           <input type="submit" value="Submit Message" class="btn btn-default submit pull-left" 

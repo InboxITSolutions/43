@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>43</title>
+	<title>The 43 Latin Steak and Grill House</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
@@ -14,36 +14,18 @@
 	<link rel="stylesheet" type="text/css" href="css/w3.css">
 	<script type="text/javascript" src="js/stickysidebar.js"></script>
   <script type="text/javascript" src="js/hovereffect.js"></script>
-	  <style type="text/css">
-/*  .hr-footer{
-    display: none;
-  }
-  .footer{
-    display: none;
-  }
-
-  .navbar-default{
-    margin: 0 !important;
-  }
-
-  .page-icons a{
-    padding-bottom: 11.8px !important;
-    line-height: 4.47em !important;
-  }*/
-  </style>
 </head>
-<body  onload="myFunction()" style="margin:0;"><!--  -->
-<?php include'includes/loader.php';?>
-<div style=" color:#fff;display:none; " id="myDiv" class="animate-bottom"><!-- -->
+<body style="margin:0;"><!--  -->
+<div style=" color:#fff;" class="animate-bottom"><!-- -->
 <?php include 'includes/navigation.php'; ?> 
   	<div class="col-xs-12 col-md-12 col-sm-12 about">
   		<div class="col-xs-12 col-md-12 col-sm-12 show-hide">
-  			<button class="show-story">OUR STORY</button>&nbsp; |
+  			<button class="show-story activeabout">OUR STORY</button>&nbsp; |
   			<button class="show-members">MEMBERS</button>
   		</div>
   	
   		<div class="col-xs-12 col-md-12 col-sm-12 our-story">
-           <h3><span>ABOUT US</span></h3>
+           <h3><span>About us</span></h3>
   			<div class="col-xs-12 col-md-4 col-sm-4 restaurant-image">
   				<img src="assets/5.jpg">
   			</div>
@@ -87,8 +69,9 @@
         </div>
   		</div>
   		<div class="col-xs-12 col-md-12 col-sm-12 members" style="display:none;">
-           <h3><span>MEMBERS</span></h3>          
+           <h3><span>Members</span></h3>          
            <div class="col-xs-12 col-md-12 col-sm-12 bod">
+            <h4><span>Message from our board</span></h4>
               <div class="col-xs-12 col-md-2 col-sm-2 bod-photo">
                 <img src="images/bod.png">
               </div>
@@ -102,7 +85,7 @@
               </div>
            </div>
            <div class="col-xs-12 col-md-12 col-sm-12 our-team">
-              <h4><span>MEET OUR STAFF</span></h4>
+              <h4><span>Meet our staff</span></h4>
               
               <div class="col-xs-12 col-md-3 col-sm-3 staff staff-1">
                 <div class="wrapper">
@@ -174,13 +157,15 @@ $(document).ready(function(){
  $(".show-story").click(function(){
  	$(".our-story").show(1);
  	$(".members").hide(1);
-
+  jQuery(".show-story").addClass("activeabout");
+  jQuery(".show-members").removeClass("activeabout");
  });
 
  $(".show-members").click(function(){
  	$(".members").show(1);
  	$(".our-story").hide(1);
-
+  jQuery(".show-members").addClass("activeabout");
+  jQuery(".show-story").removeClass("activeabout");
  });
 });
 </script>

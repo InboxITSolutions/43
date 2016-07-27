@@ -41,6 +41,7 @@
 
 .sidebar-navbar-collapse{
 	display: none ;
+
 }
 
 .navbar-brand{
@@ -56,6 +57,7 @@
 
 .navbar-nav{
 	margin: 0 !important;
+
 }
 .sidebar-nav .navbar li {
 	/*float: left !important;*/
@@ -78,7 +80,7 @@
 }
 
 .page-icons a i{
-	font-size: 1.4em !important;
+	font-size: 1.1em !important;
 	font-weight: lighter;
 }
 
@@ -91,7 +93,7 @@
 }
 .navbar-default .navbar-nav>li>a .glyphicon{
 	left: 0 !important;
-	font-size: 22px !important;
+	font-size: 1em !important;
 }
 
 .navbar-default .navbar-toggle{
@@ -333,7 +335,7 @@
 	text-align: center;
 }
 .bod img{
-	margin-left:20% !important;
+	margin-left:30% !important;
 	margin-bottom: 10% !important;
 }
 
@@ -361,6 +363,17 @@
 	padding: 0 !important;
 }
 
+.our-team{
+	padding: 0% 18% 0% 14% !important;
+}
+
+.menu-items ul{
+	padding: 0 !important;
+}
+
+.menu-items ul li foodprice {
+	margin-right: -2%;
+}
 
 }
 

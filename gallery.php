@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>43</title>
+	<title>The 43 Latin Steak and Grill House</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
@@ -16,13 +16,12 @@
   <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 	<script type="text/javascript" src="js/hovereffect.js"></script>
 </head>
-<body  onload="myFunction()" style="margin:0;"><!--  -->
-<?php include'includes/loader.php';?>
-<div style=" color:#fff;display:none; " id="myDiv" class="animate-bottom"><!-- -->
+<body  style="margin:0;"><!--  -->
+<div style=" color:#fff;" id="myDiv" class="animate-bottom"><!-- -->
 <?php include 'includes/navigation.php'; ?> 
   <div class="col-xs-12 col-md-12 col-sm-12 heading-gallery">
     <div class="heading-wrapper">
-      <h3 style="margin-bottom: 2.5em;" ><span>GALLERY</span></h3>
+      <h3 style="margin-bottom: 2.5em;" ><span>Gallery</span></h3>
     </div>
   </div>
   <div class="col-xs-12 col-md-12 col-sm-12 gallery" id="photos">
