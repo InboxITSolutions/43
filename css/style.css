@@ -72,9 +72,9 @@ body{
 }
 .navbar-default{
   background: rgba(208, 115, 52, 0.87) !important;
-  background: -webkit-linear-gradient(to bottom right,#520402, rgba(208, 115, 52, 0.87), #520402) !important;
+  /*background: -webkit-linear-gradient(to bottom right,#520402, rgba(208, 115, 52, 0.87), #520402) !important;
   background: -o-linear-gradient(to bottom right, #520402, rgba(208, 115, 52, 0.87), #520402) !important;
-  background: linear-gradient(to bottom right, #9f6559, rgba(208, 115, 52, 0.87), #9f6559) !important;
+  background: linear-gradient(to bottom right, #9f6559, rgba(208, 115, 52, 0.87), #9f6559) !important;*/
   background-repeat: no-repeat !important;
 }
 .logo-wrapper{
@@ -102,7 +102,7 @@ body{
   -o-transition:all ease-in 0.3s;
 }
 .page-icons{
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid RGBA(198, 188, 186, 0.2);
 }
 
 .page-icons:hover i{
@@ -110,7 +110,8 @@ body{
 }
 
 .page-icons:hover .glyphicon{
-   color:rgba(53, 5, 0, 0.5) !important;
+  color: #251D1B;
+  text-shadow: 0 1px 0 #811803;
 }
 
 .navbar-default{
@@ -122,14 +123,15 @@ body{
 }
 .navbar-default .navbar-nav>li>a i{ 
   font-size: 1.8em;
-  color:#fff;
-  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  color: #251D1B;
+  text-shadow: 0 1px 0 #811803;
 }
 
 .navbar-default .navbar-nav>li>a .glyphicon{ 
   font-size: 25px !important;
   left: -3px !important;
-  color:#fff;
+ color: #251D1B;
+  text-shadow: 0 1px 0 #811803;
 }
 
 .fixed{
@@ -204,41 +206,51 @@ z-index: 9999;
   background-repeat: no-repeat;
 
 }
-
-.slider-wrapper{
-  background:url('../images/steak2.jpg');
+.bg-image{
+  background:url('../images/7.jpg');
   background-size: 100% 130%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0px !important;
+}
+.slider-wrapper{
+  background-color:RGBA(36, 11, 11, 0.65) !important;
 }
 
-.iconic-slider img{
-  height: 500px !important;
+.clipart{
+  padding-bottom: 4%;
+  height: 110px;
 }
 
 .carousel-content{
   color:#fff !important;
-  padding: 20% 20% 0 20% !important;
+  padding: 9% 20% 0% !important;
+  text-align: center;
 }
 
 .carousel-content h3{
-  font-size: 4.4em;
-  text-shadow:3px 1px 1px #333;
-}
-
-.carousel-content p{
-  font-size: 2.1em;
+   font-size: 19px;
   text-align-last: center !important;
   -moz-text-align-last: center !important;
+  text-shadow:3px 1px 1px #333;
+  text-transform: uppercase;
+}
+.carousel-content .head{
+  font-size: 3em;
+}
+.carousel-content p{
+  margin: 1em !important;
+  letter-spacing: 0.2em;
 }
 
 .divider{
   height: auto;
   width:100%;
   text-align: center;
-  padding-bottom: 3%
+  padding-bottom: 4%;
+  padding-top: 2%;
 }
 
 .line-one{
@@ -253,25 +265,35 @@ z-index: 9999;
 
 .slogan{
   text-align: center;
-  padding-bottom: 3%;
+  padding-bottom: 0%;
 }
-
+@import 'https://fonts.googleapis.com/css?family=Farsan';
 .slogan h3{
-  padding:2% 0% 4% 0%; 
-  color:#fff;
-  text-shadow:3px 1px 1px #333;
+  font-family: 'Farsan', cursive !important;
+  text-align: center;
+  padding-bottom: 3%;
+  width: 60%;
+  margin: 2em auto;
+  margin-bottom: 1em;
+  letter-spacing: 0.15em;
+  text-transform: capitalize;
+  text-shadow:3px 1px 1px #000;
+  font-size: 22px;
+  line-height: 35px;
 }
 
-.slogan a{
+.button-all a{
   text-decoration: none;
-  border:1px solid #fff;
-  padding:1% 3% 1% 3%;
+  padding:1% 3%;
   border-radius: 3px;
-  color: #fff;
-  background: transparent;
+  color: #1D1615;
+  text-shadow: 0px 1px 0px RGBA(198, 103, 103, 0.41);
+  background: #BD662E;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
-.slogan a:hover{
+.button-all a:hover{
   text-decoration: none;
 }
 
@@ -285,9 +307,6 @@ z-index: 9999;
 .heading-wrapper{
   position: relative;
   margin-left: -2%;
-}
-.text-style{
-  color: #fff !important;
 }
 .menu h3 span{
   font-size: 1.5em;
@@ -342,7 +361,7 @@ z-index: 9999;
 .regular-menu p{
   font-size: 1.2em;
   padding-right:13%;
-  font-family: Quikhand;
+  font-family: 'Farsan', cursive !important;
   color: #fff;
   letter-spacing: 0.12em;
 }
@@ -372,7 +391,7 @@ z-index: 9999;
 .grill-menu p{
    font-size: 1.2em;
   padding-right:8%;
-  font-family: Quikhand;
+  font-family: 'Farsan', cursive !important;
   color: #fff;
   letter-spacing: 0.12em
 }
@@ -387,10 +406,11 @@ z-index: 9999;
     font-family: Quikhand;
     text-shadow: 0 7px 0 #010101;
     letter-spacing: 0.15em;
+    padding: 5px;
 }
 
 .special-item{
-  font-family: Quikhand;
+  font-family: 'Farsan', cursive !important;
   font-size: 1.5em;
   color: #fff;
   letter-spacing: 0.12em;
@@ -419,7 +439,7 @@ z-index: 9999;
 }
 
 .origin {
-  content: url(../images/pin.png);
+   content: url(../images/pin.png);
     height: 18px;
     position: absolute;
     width: 20px;
@@ -431,7 +451,7 @@ z-index: 9999;
   -webkit-animation: rotate 4s infinite alternate ease;
           animation: rotate 4s infinite alternate ease;
   background: rgba(4, 29, 35, 0.91);
-  border: 7px solid #f9f6da;
+  border: 7px solid #E4DBD7;
   padding: 1em;
   box-shadow: 1em 1em 1em 0px #010101;
 }
@@ -444,35 +464,21 @@ z-index: 9999;
 }
 
 .btn-menu{
-  margin:  5.5em 0em;
-}
-
-.btn-menu a{
-  text-decoration: none;
-  font-family: sans-serif;
-  border:1px solid #fff;
-  padding:10px 15px 10px 15px;
-  font-size: 1.3em;
-  border-radius: 3px;
-  
-}
-
-.btn-menu a:hover{
-  text-decoration: none !important;
+  margin:  6.5em 0em;
 }
 
 .service-background{
-  height: 100px;
-  background: -webkit-linear-gradient(to bottom right, #520402, rgba(208, 115, 52, 0.69), #520402 );
-  background: -o-linear-gradient(to bottom right, #520402, rgba(208, 115, 52, 0.69), #520402 );
-  background: linear-gradient(to bottom right, #520402, rgba(208, 115, 52, 0.69), #520402 );
+  height: 75px;
+  background: -webkit-linear-gradient(to bottom right,  RGBA(189, 102, 45, 0.2), #BD662D, RGBA(189, 102, 45, 0.2) );
+  background: -o-linear-gradient(to bottom right,  RGBA(189, 102, 45, 0.2), #BD662D, RGBA(189, 102, 45, 0.2) );
+  background: linear-gradient(to bottom right, RGBA(189, 102, 45, 0.2), #BD662D, RGBA(189, 102, 45, 0.2));
   background-repeat: no-repeat;
 }
 
 
 .service-time{
  padding: 10px 40px !important;
- top: -11em;
+ top: -10.1em;
 }
 
 .food{
@@ -511,7 +517,6 @@ z-index: 9999;
 }
 .book-table{
   text-align: center;
-  background-color:RGBA(33, 0, 0, 0.62); 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1515,6 +1520,3 @@ div.panel.show {
     margin-bottom: 0 !important;
     color: #fff;
 }
-
-
-

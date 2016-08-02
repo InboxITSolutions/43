@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <div class="col-xs-12 col-md-11 col-sm-11" style="padding:0 !important;">
+    <div class="col-xs-12 col-md-11 col-sm-11" style="padding:0 !important;" >
       
     
 <script>

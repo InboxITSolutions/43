@@ -19,7 +19,7 @@
 </head>
 <body  onload="myFunction()" style="margin:0;"><!--  -->
 <?php include'includes/loader.php'; ?>
-<div style=" color:#fff;display:none; " id="myDiv" class="animate-bottom"><!-- -->
+<div style=" color:#fff; display:none;" id="myDiv" class="animate-bottom"><!-- -->
 <?php include 'includes/navigation.php'; ?> 
 		<div class="col-xs-12 col-md-12 col-sm-12 top-social-bar">
 		<ul class="pull-left">
@@ -32,34 +32,45 @@
 		</span>
 	</div>
 	<section id="carousel">
+		<div class="col-xs-12 col-md-12 cols-sm-12 bg-image">
 		<div class="col-xs-12 col-md-12 cols-sm-12 slider-wrapper">
 			<div class="col-xs-12 col-md-12 cols-sm-12 iconic-slider">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner" role="listbox" >
 							<div class="item active">
 								<div class="carousel-content">
-									<h3 align="center">Chania</h3>
-									<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+									<div class="clipart">
+										<img src="images/clip.png">
+									</div>
+									<h3 align="center">
+										<span class="head">WE OFFER</span>
+										<p>Latin steak and Mexican food</p>
+									</h3>
 								</div>
 							</div>
 							<div class="item">
 								<div class="carousel-content">
-									<h3 align="center">Chania</h3>
-									<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+									<div class="clipart">
+										<img src="images/clip2.png">
+									</div>
+									<h3 align="center">
+										<span class="head">GREAT FOOD</span>
+										<p>FOR GOOD TIME</p>
+									</h3>
 								</div>
 							</div>
 							<div class="item">
 								<div class="carousel-content">
-									<h3 align="center">Chania</h3>
-									<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+									<div class="clipart">
+										<img src="images/clip3.png">
+									</div>
+									<h3 align="center">
+										<span class="head">MAKE EVERYDAY</span>
+										<p>FOR COOKING FRESH & SPECIAL TASTE </p>
+									</h3>
 								</div>
 							</div>
-							<div class="item">
-								<div class="carousel-content">
-									<h3 align="center">Chania</h3>
-									<p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-								</div>
-							</div>
+							
 						</div>
 						
 					</div>
@@ -68,13 +79,15 @@
 					<img src="images/line-one.png" class="line-one">
 					<img src="images/line-two.png" class="line-two">
 					<div class="slogan">
-						<h3>We just dont't serve grilled steak.</h3>
-						<a href="about.php" class="hvr-sweep-to-right">ABOUT</a>
+						<h3>We just dont't serve grilled steak. Enjoy the meal and friendly service.</h3>
+					</div>
+					<div class="button-all">
+						<a href="about.php" class="hvr-shutter-out-horizontal">ABOUT</a><!-- hover 2024 -->
 					</div>
 				</div>
 			</div>
-				
-			</section>
+			</div>
+		</section>
 			<section id="menu-types">
 				<div class="col-xs-12 cold-md-12 col-sm-12 menu">
 							<div class="heading-wrapper">
@@ -102,7 +115,7 @@
               						<tr><td class="special-item">Lorem Ipsum doler <i class="fa fa-angle-right " aria-hidden="true"></i></td></tr>
               						<tr><td class="special-item">Lorem Ipsum doler <i class="fa fa-angle-right " aria-hidden="true"></i></td></tr>
               						<tr><td class="special-item">Lorem Ipsum doler <i class="fa fa-angle-right " aria-hidden="true"></i> <br/></td></tr>
-             						<tr><td class="special-button"><a href="#"><span>See More</span></a></td></tr>
+             						<!-- <tr><td class="special-button"><a href="#"><span>See More</span></a></td></tr> -->
             					</table>
             				</div>	
 							<div class="col-xs-12 col-md-4 col-sm-4 menu-all grill-menu">
@@ -115,8 +128,11 @@
 								<p align="center">-Lorem ipsum doler</p>
 							</div>
 							<div class="col-xs-12 col-md-12 col-sm-12 btn-menu" >
-								<a href="menu.php" class="hvr-sweep-to-right">Our menu</a>
+								<div class="button-all">
+									<a href="about.php" class="hvr-shutter-out-horizontal">see menu</a><!-- hover 2024 -->
+								</div>
 							</div>
+
 						</div>
 
 					
@@ -156,6 +172,7 @@
 				 		</form>
 				 	</div>
 				 </section>
+				 
 				<section id="testimonial">
 					<div class="col-xs-12 col-md-12 col-sm-12 testimonial-custom">
 						<div class="heading-wrapper">
@@ -223,6 +240,21 @@
 					</div>
 				</div>
 				</section>
+				<div style="width:312px;display:block;padding:0;margin:0;position:relative;"><iframe
+
+src="https://widget.quandoo.co.uk/widget/reservation/merchant/chm1T?aid=2&amp;countryId=GBR"
+
+width="312" height="372" seamless="seamless" scrolling="no" frameborder="0"></iframe><a
+
+href="http://www.quandoo.co.uk/the-43- latin-steak- and-grill- house-26773" target="_blank"
+
+style="width:312px;display:block;padding:0;margin:0;position:relative;"><img
+
+src="https://admin.quandoo.de/awidget/poweredby.png"
+
+style="border:none;position:relative;width:312px;height:30px;" alt="Quandoo"
+
+title="Quandoo"></a></div>
 				<?php include'includes/footer.php';?>
 			</div>
 		</div>	
